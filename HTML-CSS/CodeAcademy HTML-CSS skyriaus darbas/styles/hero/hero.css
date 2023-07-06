@@ -1,0 +1,34 @@
+#hero {
+  margin: 0 0 5rem 2rem;
+}
+#hero .contentWrapper {
+  position: relative;
+}
+#hero .contentWrapper .textWrapper {
+  margin-top: 2rem;
+  width: 100%;
+}
+#hero .contentWrapper .textWrapper h2 {
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+#hero .contentWrapper .textWrapper h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+#hero .contentWrapper .textWrapper p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  width: 87%;
+  margin-bottom: 2rem;
+}
+#hero .contentWrapper .imgWrapper {
+  width: 48%;
+  overflow-x: hidden;
+  filter: drop-shadow(25px 0px 35px rgb(212, 2, 104));
+}
+#hero .contentWrapper .imgWrapper img {
+  width: 170%;
+}/*# sourceMappingURL=hero.css.map */

@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "dude",
+      "email": "dude@gmail.com",
+      "password": "dude123"
+    },
+    {
+      "id": 2,
+      "username": "dudette",
+      "email": "dudette@gmail.com",
+      "password": "dudette123"
+    }
+  ],
+  "questions": [
+    {
+      "id": "5ab9b366-3d3b-4e51-9cc2-9820d3c5bb66",
+      "posterId": 2,
+      "title": "asd",
+      "content": "ads",
+      "score": -1,
+      "isEdited": false,
+      "formattedDateAdded": "2/12/2023, 7:39:44 PM",
+      "rawDateAdded": 1676223584905
+    },
+    {
+      "id": "c21ac31d-0d7f-4bf8-a814-798c4007eb62",
+      "posterId": 2,
+      "title": "aaaaaaaaaaaaa",
+      "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "score": 0,
+      "isEdited": false,
+      "formattedDateAdded": "2/12/2023, 10:51:55 PM",
+      "rawDateAdded": 1676235115531
+    },
+    {
+      "id": "21de54f2-4a17-4b07-868e-52356049e06c",
+      "posterId": 1,
+      "title": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+      "content": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+      "score": 0,
+      "isEdited": false,
+      "formattedDateAdded": "2/12/2023, 11:00:18 PM",
+      "rawDateAdded": 1676235618024
+    },
+    {
+      "id": "66e6f91c-ad08-4009-b6ca-b05a3d10c401",
+      "posterId": 2,
+      "title": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "score": 0,
+      "isEdited": false,
+      "formattedDateAdded": "2/12/2023, 11:14:22 PM",
+      "rawDateAdded": 1676236462233
+    }
+  ],
+  "answers": [
+    {
+      "id": "35cfd724-d7f9-46f0-bda6-306a883ff757",
+      "posterId": 2,
+      "questionId": "5ab9b366-3d3b-4e51-9cc2-9820d3c5bb66",
+      "content": "aaaaaaaaaa",
+      "score": 0,
+      "iEdited": false,
+      "formattedDateAdded": "2/12/2023, 7:41:30 PM",
+      "rawDateAdded": 1676223690995
+    },
+    {
+      "id": "fe157edd-eb1d-468c-bb65-be600c382ce9",
+      "posterId": 2,
+      "questionId": "66e6f91c-ad08-4009-b6ca-b05a3d10c401",
+      "content": "asdddddddddddddddddddddddddd",
+      "score": 0,
+      "iEdited": false,
+      "formattedDateAdded": "2/12/2023, 11:42:26 PM",
+      "rawDateAdded": 1676238146862
+    },
+    {
+      "id": "991b2690-332e-470e-864a-f5aa93d68782",
+      "posterId": 2,
+      "questionId": "66e6f91c-ad08-4009-b6ca-b05a3d10c401",
+      "content": "asdddddddddddddddddddd",
+      "score": 0,
+      "iEdited": false,
+      "formattedDateAdded": "2/12/2023, 11:46:19 PM",
+      "rawDateAdded": 1676238379610
+    },
+    {
+      "id": "775c8886-3164-4e59-9469-1016c490802d",
+      "posterId": 2,
+      "questionId": "66e6f91c-ad08-4009-b6ca-b05a3d10c401",
+      "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "score": 0,
+      "iEdited": false,
+      "formattedDateAdded": "2/12/2023, 11:56:35 PM",
+      "rawDateAdded": 1676238995337
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+#launching_soon{
+    position: relative;
+    border-top: 3px solid #EEE;
+    border-bottom: 3px solid #EEE;
+    
+    .contentWrapper{
+        background-color: #fff;
+        margin: 4rem 0 4rem 2rem;
+
+        .topTextWrapper{
+            width: 50%;
+            
+            h2{
+                letter-spacing: 0.1rem;
+                margin-bottom: 1.2rem;
+                font-size: 1.1rem;
+            }
+            h1{
+                font-size: 3.2rem;
+                font-weight: 800;
+                margin-bottom: 1rem;
+            }
+        }
+        .line{
+            opacity: 0.1;
+            z-index: 1;
+            right: 0;
+            position: absolute;
+            border-bottom: 3px solid black;
+            width: 100%;
+        }
+        .bottextWrapper{
+            width:49.5%;
+            margin-top: 2rem;
+            p{  
+                font-size: 1.2rem;
+                line-height: 1.8rem;
+                margin-bottom: 1rem;
+                letter-spacing: .05rem;
+            }
+        }
+        
+    }
+    img{
+        position: absolute;
+        bottom: 0;
+        right: 0rem;
+    }
+}

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+}
+
+.logo, .mainMenu{
+    display: inline-block;
+}
+
+.logoPic img{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 45px;
+    width: auto;
+}
+
+.logoPic h1{
+    margin-top: 25px;
+    margin-left: 15px;
+    display: inline-block;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.mainMenu{
+    float: right;
+    margin-right: 20px;
+}
+
+.mainMenu ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.mainMenu > ul > li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.mainMenu ul a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 80px;
+    color: rgba(255, 255, 255, 0.877);
+}
+
+#hero{
+    text-align: center;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9) 92%,
+        rgba(255, 0, 0, 0.8)
+        );
+    padding-bottom: 70px;
+}
+
+#hero h1{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.about{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.about h2{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 20px;
+}
+
+.about p{
+    line-height: 26px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.stats{
+    border-radius: 50px;
+    height: 400px;
+    width: 800px;
+    background-color: rgba(240, 230, 255, 0.9);
+    margin: 40px auto 0px auto;
+}
+
+.community{
+    padding-top: 45px;
+}
+
+.community h2, .community i{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.community i{
+    margin-left: 20px;
+    padding: 0;
+    font-size: 30px;
+}
+
+/* Settings for GPU, CPU, RAM sections */
+
+.articleHeading{
+    font-size: 38px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.articleContent{
+    width: 1500px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+
+.articleDisplayPadding{
+    padding-top: 100px;
+    display: inline-block;
+}
+    
+.articleText{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 24px;
+    margin-right: 200px;
+    width: 450px;
+}
+
+.articleImg{
+    width: 700px;
+    height: auto;
+}
+
+.blackBackground{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 5px 0px 5px 0px;
+}
+
+
+#cpu_stuff{
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 0, 0, 0.8) 92%,
+        rgb(230, 152, 9, 0.8)
+        );
+}
+
+#gpu_stuff{
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(230, 152, 9, 0.8) 92%,
+        rgba(5, 98, 155, 0.7)
+    );
+}
+
+
+#ram_stuff{
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(5, 98, 155, 0.7) 92%,
+        white
+    );
+}
+
+#ram_stuff img{
+    width: 700px;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+#feedback_contacts{
+    /* text-align: center; */
+}
+
+.fc{
+    padding-top: 50px;
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto 0 auto;
+}
+
+#feedback_form, .contacts{
+    display: inline-block;
+}
+
+
+.fontsize24{
+    font-size: 24px;
+}
+
+.fontsize22{
+    font-size: 22px;
+}
+
+.name input {
+    width: 220px;
+    height: 30px;
+}
+
+#feedback_form .name{
+    padding-bottom: 30px;
+}
+
+#feedback_form button{
+    width: 150px;
+    font-size: 16px;
+}
+
+.contacts{
+    /* margin-top: 50px; */
+    float: right;
+}
+
+ul{
+    margin-top: 50px;
+    list-style: none;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+footer{
+    /* height: 200px; */
+    border-top: black solid 3px;
+    text-align: center;
+}
+
+.footerStuff{
+}
+
+.links ul{
+    margin: 0;
+}
+
+.links li{
+    display: inline-block;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85.1vh;
+}
+
+.login-wrapper form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.login-wrapper .email label,
+.login-wrapper .password label {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.login-wrapper .email input,
+.login-wrapper .password input {
+  font-size: 1.3rem;
+  padding: 3px 7px;
+}
+
+.login-wrapper .login-btn {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.login-wrapper .login-btn button {
+  font-size: 1.6rem;
+  color: whitesmoke;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border: none;
+  border-radius: 5px;
+}
+
+.login-wrapper .login-btn button:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.login-wrapper .error {
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(223, 32, 32);
+}
+

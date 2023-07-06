@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  height: 9.35rem;
+  background: url('https://img.freepik.com/premium-vector/seamless-pattern-with-red-fly-agaric-amanita-mushrooms_1319-988.jpg?w=2000');
+  background-size: 40%;
+}
+
+

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  /* background: rgba(128, 128, 128, 0.15) */
+}
+
+/*VARIOUS CLASSES*/
+.flex {
+  display: flex;
+}
+
+.fc {
+  justify-content: center;
+  align-items: center;
+}
+
+.fhc {
+  justify-content: center;
+}
+
+.fvc {
+  align-items: center;
+}
+
+.fsb {
+  justify-content: space-between;
+}
+/*VARIOUS CLASSES*/

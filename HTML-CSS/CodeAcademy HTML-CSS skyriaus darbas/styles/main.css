@@ -1,0 +1,15 @@
+/* common */
+@import "./common/common.css";
+
+/* main */
+@import "./header/header.css";
+@import "./hero/hero.css";
+@import "./free_nfts/free_nfts.css";
+@import "./auction/auction.css";
+@import "./launching_soon/launching_soon.css";
+
+/* footer */
+@import "./footer/footer.css";
+
+/* media queries */
+@import "./media/media.css";

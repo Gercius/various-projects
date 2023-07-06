@@ -1,0 +1,5 @@
+footer {
+  height: 60px;   /* Height of the footer */
+  background: rgba(255, 235, 205, 0.5);
+  box-shadow: black 5px 0 5px;
+}

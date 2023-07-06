@@ -1,0 +1,60 @@
+#auction {
+  margin: 0 2rem 4rem 2rem;
+}
+#auction .headingWrapper {
+  margin-bottom: 2rem;
+}
+#auction .headingWrapper h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+#auction .headingWrapper p {
+  line-height: 1.7rem;
+  font-size: 1.3rem;
+}
+#auction .headingWrapper p .borderBot {
+  border-bottom: 2px solid var(--gray);
+}
+#auction .cardWrapper {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+#auction .cardWrapper .card {
+  margin-right: 2rem;
+}
+#auction .cardWrapper .card .textWrapper {
+  margin-top: -0.3rem;
+  background-color: #EEE;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+#auction .cardWrapper .card .textWrapper .left :first-child {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+#auction .cardWrapper .card .textWrapper .left :nth-child(2) {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+#auction .cardWrapper .card .textWrapper .left :last-child {
+  font-size: 1.2rem;
+}
+#auction .cardWrapper .card .textWrapper .right {
+  text-align: right;
+}
+#auction .cardWrapper .card .textWrapper .right :first-child {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+#auction .cardWrapper .card .textWrapper .right :nth-child(2) {
+  font-size: 1.3rem;
+}
+#auction .cardWrapper .card .textWrapper .right :last-child {
+  font-size: 1.2rem;
+}
+#auction .cardWrapper :last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=auction.css.map */

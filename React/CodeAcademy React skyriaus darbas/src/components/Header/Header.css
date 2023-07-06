@@ -1,0 +1,31 @@
+header {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  margin-left: 3rem;
+  font-size: 2.3rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header .links {
+  margin-right: 6rem;
+  display: flex;
+  list-style: none;
+}
+
+header .links .link {
+  margin: 0 1rem;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+header .links .link:hover {
+  color: rgba(245, 245, 245, 0.5);
+}

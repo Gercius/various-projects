@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@gmail.com",
+      "password": "test1"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "dude's post",
+      "content": "dude lalalaallalalalaala"
+    },
+    {
+      "id": 2,
+      "title": "dudette's post",
+      "content": "dudette lalalaallalalalaala"
+    },
+    {
+      "title": "title",
+      "content": "content\n",
+      "id": "17326ec1-3590-4eb3-adc9-6a56bcb7db07"
+    }
+  ]
+}

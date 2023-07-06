@@ -1,0 +1,57 @@
+header {
+  height: 80px;
+  background: rgba(255, 235, 205, 0.5);
+  box-shadow: black 5px 0 5px;
+}
+
+header nav {
+  height: 100%;
+  padding: 1rem;
+}
+
+header .logo-wrapper {
+  margin-left: 2rem;
+}
+
+header .logo {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+header .links li {
+  list-style: none;
+  margin-right: 2rem;
+  font-size: 1.4rem;
+}
+
+header .link {
+  text-decoration: none;
+  color: black;
+}
+
+header .link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+header .logo-name {
+  margin-right: 4rem;
+}
+
+header .username {
+  margin-right: 4rem;
+  font-size: 1.4rem;
+  transform: translateY(0.4rem);
+}
+
+header .logout-btn button {
+  font-size: 1.4rem;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+
+header .logout-btn button:hover {
+  background: rgba(0, 0, 0, 0.9);
+}

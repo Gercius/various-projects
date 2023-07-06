@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signInWrapper {
+  background: rgba(19, 80, 80, 0.95);
+  height: 100px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signInWrapper form label {
+  margin: 0 1rem;
+  font-size: 1.3rem;
+  color: whitesmoke;
+}
+
+.signInWrapper form input {
+  padding: 2px 5px;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.signInWrapper form button {
+  background: whitesmoke;
+  font-size: 1.2rem;
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.signInWrapper form button:hover {
+  background: rgb(139, 139, 139);
+  color: whitesmoke;
+}
+
+.signInWrapper .logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10rem;
+}
+
+.signInWrapper .logoName {
+  color: whitesmoke;
+  font-size: 1.7rem;
+  margin-right: 1rem;
+}
+
+.signInWrapper .logo img {
+  width: 50px;
+}
+
+

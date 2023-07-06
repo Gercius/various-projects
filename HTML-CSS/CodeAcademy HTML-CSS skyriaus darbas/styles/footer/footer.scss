@@ -1,0 +1,64 @@
+#footer{
+    margin: 4rem 2rem 6rem 2rem;
+
+    .contentWrapper{
+
+        .logo{
+            align-items: center;
+            margin-bottom: 1.5rem;
+
+            img{
+                margin-right: .7rem;
+            }
+            h1{
+                font-size: 1.8rem;
+            }
+        }
+        h2{
+            font-size: 1.3rem;
+            font-weight: normal;
+            margin-bottom: 2rem;
+        }
+        .icons{ 
+            margin-bottom: 3rem;
+            
+            i{
+                margin-right: 1rem;
+            }
+        }
+        .links{
+            display: grid;
+            grid-template-columns: 45% 50%;
+            margin-bottom: 1.5rem;
+            line-height: 2rem;
+
+            h3{
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+                font-size: 1rem;
+                letter-spacing: 0.1rem;
+            }
+
+            ul{
+                list-style: none;
+
+                :last-child{
+                    margin-bottom: 1rem;
+                }
+                a{
+                    text-decoration: none;
+                    color: var(--gray);
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .copy{
+        font-size: 1.2rem;
+        
+        p:last-child{
+            display: none;
+        }
+    }
+    
+}

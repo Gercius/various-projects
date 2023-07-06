@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "grybumegautojasis",
+      "avatar": "https://play-lh.googleusercontent.com/5LIMaa7WTNy34bzdFhBETa2MRj7mFJZWb8gCn_uyxQkUvFx_uOFCeQjcK16c6WpBA3E"
+    }
+  ],
+  "mushrooms": [
+    {
+      "id": "ebea04fe-e539-4fb8-9b86-407b9d524f02",
+      "name": "Ąžuolyninis Raudonviršis",
+      "image": "https://www.grybai.lt/upl/grybai/azuolyninis-raudonvirsis_midi.jpg",
+      "edible": true,
+      "found": false
+    },
+    {
+      "id": "190a3491-b19e-45e7-ae64-11557aa9d9f1",
+      "name": "Gelsvoji Musmirė",
+      "image": "https://www.grybai.lt/upl/grybai/gelsvoji-musmire_midi.jpg",
+      "edible": false,
+      "found": false
+    },
+    {
+      "id": "accfec4e-5a6f-4961-b34b-b35a18c62374",
+      "name": "Baravykas",
+      "image": "https://www.grybai.lt/upl/grybai/baravykas_midi.jpg",
+      "edible": true,
+      "found": false
+    },
+    {
+      "id": "3766e262-7d82-4814-b33b-79b9c8ab8220",
+      "name": "Geltonasis Kazlėkas",
+      "image": "https://www.grybai.lt/upl/grybai/geltonasis-kazlekas_midi.jpg",
+      "edible": true,
+      "found": false
+    }
+  ]
+}

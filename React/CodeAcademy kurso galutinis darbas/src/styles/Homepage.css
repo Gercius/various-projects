@@ -1,0 +1,51 @@
+.homepage-wrapper {
+  width: fit-content;
+  margin: 0 auto;
+  min-height: 81.5vh;
+}
+
+.homepage-wrapper .ask-btn {
+  margin: 2rem 0;
+  width: 100%;
+  text-align: right;
+}
+
+.homepage-wrapper .ask {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
+}
+
+.homepage-wrapper .ask:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.homepage-wrapper .question-count {
+  margin: 2rem auto;
+  width: fit-content;
+  font-size: 2rem;
+}
+
+.homepage-wrapper .sort {
+  margin: 2rem 0;
+}
+
+.homepage-wrapper .sort-panel span {
+  font-size: 1.2rem;
+}
+
+.homepage-wrapper .sort-panel button {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  padding: 3px 6px;
+  background: rgba(128, 128, 128, 0.2);
+  border: none;
+  border-radius: 3px;
+}
+
+.homepage-wrapper .sort-panel button:hover {
+  background: rgba(128, 128, 128, 0.5);
+}

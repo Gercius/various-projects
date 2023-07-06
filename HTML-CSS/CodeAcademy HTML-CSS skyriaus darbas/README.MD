@@ -1,0 +1,1 @@
+Užduotis -  Sukurti "Responsive" puslapį atitinkantį pateiktą svetainės pavyzdį.

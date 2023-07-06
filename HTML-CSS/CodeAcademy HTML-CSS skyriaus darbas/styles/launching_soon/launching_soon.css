@@ -1,0 +1,45 @@
+#launching_soon {
+  position: relative;
+  border-top: 3px solid #EEE;
+  border-bottom: 3px solid #EEE;
+}
+#launching_soon .contentWrapper {
+  background-color: #fff;
+  margin: 4rem 0 4rem 2rem;
+}
+#launching_soon .contentWrapper .topTextWrapper {
+  width: 50%;
+}
+#launching_soon .contentWrapper .topTextWrapper h2 {
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+#launching_soon .contentWrapper .topTextWrapper h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+#launching_soon .contentWrapper .line {
+  opacity: 0.1;
+  z-index: 1;
+  right: 0;
+  position: absolute;
+  border-bottom: 3px solid black;
+  width: 100%;
+}
+#launching_soon .contentWrapper .bottextWrapper {
+  width: 49.5%;
+  margin-top: 2rem;
+}
+#launching_soon .contentWrapper .bottextWrapper p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05rem;
+}
+#launching_soon img {
+  position: absolute;
+  bottom: 0;
+  right: 0rem;
+}/*# sourceMappingURL=launching_soon.css.map */

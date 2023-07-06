@@ -1,0 +1,16 @@
+.post {
+  margin: 2rem 0;
+  padding: 5px;
+  list-style: none;
+  border: 1px black solid;
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.post p {
+  font-size: 1.2rem;
+  word-wrap: break-word;
+}

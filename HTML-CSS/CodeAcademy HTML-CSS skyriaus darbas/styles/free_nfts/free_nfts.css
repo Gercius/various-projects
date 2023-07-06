@@ -1,0 +1,24 @@
+#free_nfts .textWrapper {
+  background-image: linear-gradient(to right, #FF4B80, #FF7F3A, #97DF9C);
+  padding: 7rem 2rem 2rem 2rem;
+}
+#free_nfts .textWrapper h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+#free_nfts .textWrapper p {
+  font-size: 1.3rem;
+}
+#free_nfts .logoWrapperD {
+  display: none;
+}
+#free_nfts .logoWrapper {
+  background-color: #fff;
+  padding: 4rem 2rem 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+#free_nfts .logoWrapper .top, #free_nfts .logoWrapper .bot {
+  margin: 1rem 0;
+}/*# sourceMappingURL=free_nfts.css.map */

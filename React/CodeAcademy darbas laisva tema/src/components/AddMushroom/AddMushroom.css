@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.addMushroomWrapper {
+
+}
+
+.addMushroomWrapper h1 {
+  width: fit-content;
+  margin: 2rem auto;
+
+}
+
+.addMushroomWrapper form  {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.addMushroomWrapper form label {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+}
+
+.addMushroomWrapper form input {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  padding: 2px 5px;
+  border-radius: 5px;
+  border-color: whitesmoke;
+}
+
+.addMushroomWrapper form [name="edible"] {
+  width: 15px;
+  height: 15px;
+}
+
+.addMushroomWrapper form button {
+  background: rgba(19, 80, 80, 0.95);
+  color: whitesmoke;
+  font-size: 1.3rem;
+  padding: 7px 13px;
+  border: none;
+  border-radius: 5px;
+}
+
+.addMushroomWrapper form button:hover {
+  background: rgb(11, 56, 56);
+}

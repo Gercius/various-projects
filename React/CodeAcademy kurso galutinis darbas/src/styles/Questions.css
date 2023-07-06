@@ -1,0 +1,7 @@
+.questions {
+  border-left: 1px rgba(0, 0, 0, 0.5) solid;
+  border-right: 1px rgba(0, 0, 0, 0.5) solid;
+  padding: 1rem;
+  margin-top: 1rem;
+  /* background: whitesmoke; */
+}

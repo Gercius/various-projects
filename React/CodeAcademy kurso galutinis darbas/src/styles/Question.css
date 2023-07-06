@@ -1,0 +1,69 @@
+.question {
+  margin: 2rem 0 ;
+  list-style: none;
+  width: 600px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px rgba(0, 0, 0, 0.5) solid;
+  padding: 1rem 0;
+}
+
+.question .title-wrapper a {
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+.question .title {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 255, 0.6);
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.question .title:hover {
+  color: rgba(0, 0, 139, 0.8);
+}
+
+.question .content-wrapper{
+  margin: 1rem 0 2rem 0;
+}
+
+.question .content-wrapper .score {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  text-align: center;
+  padding: 5px;
+  border-right: 1px black solid;
+}
+
+.question .content-wrapper .content {
+  display: -webkit-box;
+  width: 90%;
+  max-height: 40px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.question .additional-info {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.question .manage button {
+  margin-right: 1rem;
+  font-size: 1rem;
+  border: none;
+  background: rgba(128, 128, 128, 0.2);
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.question .manage button:hover {
+  background: rgba(128, 128, 128, 0.5);
+}

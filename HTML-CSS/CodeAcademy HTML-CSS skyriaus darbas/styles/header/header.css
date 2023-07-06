@@ -1,0 +1,22 @@
+#header {
+  padding: 2rem;
+}
+#header nav {
+  align-items: center;
+}
+#header nav .logo {
+  align-items: center;
+}
+#header nav .logo img {
+  margin-right: 1rem;
+}
+#header nav .logo h1 {
+  font-size: 1.8rem;
+}
+#header nav .mainMenu ul {
+  display: none;
+}
+#header nav .mainMenu i {
+  color: var(--gray);
+  font-size: 2.5rem;
+}/*# sourceMappingURL=header.css.map */
