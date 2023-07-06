@@ -9,10 +9,11 @@ start json server (default port 4000): `npm run server`
 open new CLI and navigate to React-Atsiskaitymas folder again 
 
 start application: `npm start`
-
+***
 login: test@gmail.com
-password: test1
 
+password: test1
+***
 ## Užduotis
 
 Register
