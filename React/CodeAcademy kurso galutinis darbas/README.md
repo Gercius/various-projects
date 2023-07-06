@@ -9,15 +9,20 @@ start json server (default port 4000): `npm run server`
 open new CLI and navigate to Baigiamasis folder again 
 
 start application: `npm start`
+***
+### 1st account
 
-1st account
 login: dude@gmail.com
+
 pass: dude123
 
-2nd account
+### 2nd account
+
 login: dudette@gmail.com
+
 password: dudette123
 
+***
 
 ## Užduotis
 
